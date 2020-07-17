@@ -1,17 +1,4 @@
-//inch to miles
-function inchToMiles(inch) {
-    var miles = inch / 63360;
-    return miles;
-  }
-  var amrMiles = inchToMiles(1);
-  if (amrMiles < 0) {
-    console.log("Inch can not be a negetive number");
-  } else {
-    console.log(amrMiles);
-  }
-  
-  
-  //feetToMile
+//feetToMile
   function feetToMile(feet){
       var mile = feet/5280;
       return mile;
